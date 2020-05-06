@@ -1,0 +1,196 @@
+@charset "UTF-8";
+body {
+	font-family: lato;
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+.container {
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+	
+	header {
+	width: 100%;
+	height: 6%;
+	background-color: #CEEFE8;
+}
+.logo {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	width: 30;
+	float: left;
+	padding-left: 10px;
+	letter-spacing: 3px;
+	display: inline;
+}
+.coordinate {
+	color: #000000;
+	float: right;
+	font-weight: bold;
+	text-align: right;
+	width: 250px;
+	padding-right: 5px;
+	letter-spacing: 3px;
+	display: inline;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+.hero {
+	background-color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.text_coloumn{
+	width: 99%;
+	background-color: #CEEFE8;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.physical{
+	background-color: #CEEFE8;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	img: {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}	
+}
+.economy{
+	background-color: #CEEFE8;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	img: {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+.history{
+	background-color: #CEEFE8;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	img: {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+	td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 20px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
